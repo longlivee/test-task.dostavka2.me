@@ -1,0 +1,44 @@
+
+.submit {
+	background: #df0e7a;
+	background: -moz-linear-gradient(top, #fc89c5, #df0e7a);
+	background: -ms-linear-gradient(top, #fc89c5, #df0e7a);
+	background: -o-linear-gradient(top, #fc89c5, #df0e7a);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fc89c5), to(#df0e7a));
+	border-radius: 31px;
+	border-top: 1px solid #fed2e9;
+	box-shadow: 0 6px 25px rgba(0,0,0,.2);
+	color: #fff;
+	font-family: 'Bebas Neue Bold';
+	font-size: 34px;
+	moz-border-radius: 31px;
+	moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	letter-spacing: 1px;
+	padding: 15px 26px;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	vertical-align: middle;
+	webkit-border-radius: 31px;
+	webkit-box-shadow: 0 6px 25px rgba(0,0,0,.2);
+  transition: 1s linear;
+  cursor: pointer;
+}
+.submit:hover
+{
+background-color: #3F51B5;
+}
+.submit:active
+{
+	background: #f354be;
+	border-top-color: #f354be;
+}
+
+
+
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder {color: #2e2e2e;   } /* WebKit */
+:-moz-placeholder { color: #2e2e2e; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #2e2e2e; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {color: #2e2e2e;  } /* Internet Explorer 10+ */
+form input:focus, form textarea:focus, form select:focus { outline: none; }
+form input, textarea, select, option {border: 1px solid  #cacaca;}

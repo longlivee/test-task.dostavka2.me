@@ -1,0 +1,176 @@
+.timer
+ border-bottom: 1px solid #d9d9d9
+ height: 90px
+ &-block
+  margin: 0 22px
+  height: 80px
+  width: 50px
+  float: left
+  text-align: center
+  position: relative
+  span
+   display: block
+   font-size: 30px
+   font-family: 'Bebas Neue Bold'
+   color: #fff
+   background-color: #009391
+   padding: 15px
+   box-shadow: 0 6px 25px rgba(#009391, 0.3)
+  small
+   display: inline-block
+   font-size: 12px
+   color: #24A2A1
+   font-weight: 600
+ &-points
+  &:before
+   content: ':'
+   font-size: 40px
+   color: #24A2A1
+   position: absolute
+   left: 35%
+   top: 13%
+  &:after
+   content: ':'
+   font-size: 40px
+   color: #24A2A1
+   position: absolute
+   left: 62%
+   top: 13%
+
+.form
+ background-color: #fff
+ border: 4px solid #f051a3
+ border-radius: 10px
+ padding: 15px 30px
+ width: 350px
+ position: absolute
+ top: 100px
+ right: 0
+ font-family: 'Open sans'
+ &-select
+  width: 280px
+  height: 48px
+  background-color: #fff
+  position: relative
+  &::before
+   content: ''
+   display: block
+   width: 1px
+   height: 32px
+   background-color: #cacaca
+   position: absolute
+   top: 8px
+   right: 40px
+   z-index: 1
+   pointer-events: none
+  &::after
+   content: ''
+   border-style: solid
+   border-width: 5px 5px 0 5px
+   border-color: #cacaca transparent transparent transparent
+   position: absolute
+   top: 50%
+   right: 15px
+   z-index: 1
+   margin-top: -2px
+   pointer-events: none
+  select
+   -webkit-appearance: none
+   -moz-appearance: none
+   width: 100%
+   padding: 0 13px
+   background-color: none
+   font-size: 17px
+   border: 1px solid #cacaca
+   height: 100%
+   position: absolute
+   left: 0
+   &:hover
+    cursor: pointer
+   &:focus 
+    outline: 0
+    background-color: #fff
+ h1
+  font-size: 20px
+  text-align: center
+  color: #373737
+  font-family: 'Open sans'
+  text-shadow: none
+  text-transform: none
+  margin: 0
+  padding-bottom: 10px
+ &-price
+  &_normal
+   width: 50%
+   float: left
+   position: relative
+   h3
+    font-size: 14px
+    color: #373737
+    font-family: 'Open sans'
+    text-shadow: none
+    text-transform: none
+    margin: 0
+    padding-top: 10px
+    font-weight: 600
+   h4
+    span
+     font-size: 18px
+  &_bold
+   width: 50%
+   float: right
+   text-align: center
+   h3
+    font-size: 14px
+    font-family: 'Open sans'
+    text-shadow: none
+    text-transform: none
+    margin: 0
+    padding-top: 10px	
+    font-weight: 700
+   h4
+    font-family: 'Open sans'
+    font-size: 43px
+    color: #22a19f
+    font-weight: 700
+     
+.tag-wrap
+ display: block
+ padding-top: 14px
+.line
+ content: ''
+ display: block
+ width: 115px
+ height: 5px
+ border-bottom: 1px solid red
+ transform: translateY(20px)
+ transform: translateX(5px)
+ transform: rotate(-7deg)
+ position: absolute
+ top: 50px
+
+input
+ width: 280px
+ padding: 13px
+ font-size: 17px
+ color: #2e2e2e
+ margin-top: 13px
+ &:hover
+  background-color: #FCFCFC
+option
+ padding: 10px 0
+
+.clear
+ clear: both
+
+.money
+ font-size: 39px
+ font-weight: 500
+ text-transform: none
+ font-family: 'Open sans' 
+.currency
+ font-family: 'Open sans'
+ font-size: 18px 
+ text-transform: none
+ font-weight: 600
+@import 'submit'

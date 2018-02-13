@@ -1,0 +1,272 @@
+.timer {
+  border-bottom: 1px solid #d9d9d9;
+  height: 90px;
+}
+.timer-block {
+  margin: 0 22px;
+  height: 80px;
+  width: 50px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.timer-block span {
+  display: block;
+  font-size: 30px;
+  font-family: "Bebas Neue Bold";
+  color: #fff;
+  background-color: #009391;
+  padding: 15px;
+  -webkit-box-shadow: 0 6px 25px rgba(0, 147, 145, 0.3);
+          box-shadow: 0 6px 25px rgba(0, 147, 145, 0.3);
+}
+.timer-block small {
+  display: inline-block;
+  font-size: 12px;
+  color: #24A2A1;
+  font-weight: 600;
+}
+.timer-points:before {
+  content: ":";
+  font-size: 40px;
+  color: #24A2A1;
+  position: absolute;
+  left: 35%;
+  top: 13%;
+}
+.timer-points:after {
+  content: ":";
+  font-size: 40px;
+  color: #24A2A1;
+  position: absolute;
+  left: 62%;
+  top: 13%;
+}
+
+.form {
+  background-color: #fff;
+  border: 4px solid #f051a3;
+  border-radius: 10px;
+  padding: 15px 30px;
+  width: 350px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  font-family: "Open sans";
+}
+.form-select {
+  width: 280px;
+  height: 48px;
+  background-color: #fff;
+  position: relative;
+}
+.form-select::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 32px;
+  background-color: #cacaca;
+  position: absolute;
+  top: 8px;
+  right: 40px;
+  z-index: 1;
+  pointer-events: none;
+}
+.form-select::after {
+  content: "";
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #cacaca transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  z-index: 1;
+  margin-top: -2px;
+  pointer-events: none;
+}
+.form-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0 13px;
+  background-color: none;
+  font-size: 17px;
+  border: 1px solid #cacaca;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+.form-select select:hover {
+  cursor: pointer;
+}
+.form-select select:focus {
+  outline: 0;
+  background-color: #fff;
+}
+.form h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #373737;
+  font-family: "Open sans";
+  text-shadow: none;
+  text-transform: none;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.form-price_normal {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.form-price_normal h3 {
+  font-size: 14px;
+  color: #373737;
+  font-family: "Open sans";
+  text-shadow: none;
+  text-transform: none;
+  margin: 0;
+  padding-top: 10px;
+  font-weight: 600;
+}
+.form-price_normal h4 span {
+  font-size: 18px;
+}
+.form-price_bold {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.form-price_bold h3 {
+  font-size: 14px;
+  font-family: "Open sans";
+  text-shadow: none;
+  text-transform: none;
+  margin: 0;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.form-price_bold h4 {
+  font-family: "Open sans";
+  font-size: 43px;
+  color: #22a19f;
+  font-weight: 700;
+}
+
+.tag-wrap {
+  display: block;
+  padding-top: 14px;
+}
+
+.line {
+  content: "";
+  display: block;
+  width: 115px;
+  height: 5px;
+  border-bottom: 1px solid red;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
+  position: absolute;
+  top: 50px;
+}
+
+input {
+  width: 280px;
+  padding: 13px;
+  font-size: 17px;
+  color: #2e2e2e;
+  margin-top: 13px;
+}
+input:hover {
+  background-color: #FCFCFC;
+}
+
+option {
+  padding: 10px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.money {
+  font-size: 39px;
+  font-weight: 500;
+  text-transform: none;
+  font-family: "Open sans";
+}
+
+.currency {
+  font-family: "Open sans";
+  font-size: 18px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.submit {
+  background: #df0e7a;
+  background: -o-linear-gradient(top, #fc89c5, #df0e7a);
+  background: -webkit-gradient(linear, left top, left bottom, from(#fc89c5), to(#df0e7a));
+  border-radius: 31px;
+  border-top: 1px solid #fed2e9;
+  -webkit-box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: 'Bebas Neue Bold';
+  font-size: 34px;
+  moz-border-radius: 31px;
+  moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  padding: 15px 26px;
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  vertical-align: middle;
+  webkit-border-radius: 31px;
+  webkit-box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #3F51B5;
+}
+
+.submit:active {
+  background: #f354be;
+  border-top-color: #f354be;
+}
+
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder {
+  color: #2e2e2e;
+}
+
+/* WebKit */
+:-moz-placeholder {
+  color: #2e2e2e;
+}
+
+/* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {
+  color: #2e2e2e;
+}
+
+/* Mozilla Firefox 19+ */
+:-ms-input-placeholder {
+  color: #2e2e2e;
+}
+
+/* Internet Explorer 10+ */
+form input:focus, form textarea:focus, form select:focus {
+  outline: none;
+}
+
+form input, textarea, select, option {
+  border: 1px solid  #cacaca;
+}
+
+/*# sourceMappingURL=form.css.map */
