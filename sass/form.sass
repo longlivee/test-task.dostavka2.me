@@ -1,3 +1,5 @@
+@import "snippets"
+@import "reset"
 .timer
  border-bottom: 1px solid #d9d9d9
  height: 90px
@@ -132,8 +134,7 @@
     font-family: 'Open sans'
     font-size: 43px
     color: #22a19f
-    font-weight: 700
-     
+    font-weight: 700    
 .tag-wrap
  display: block
  padding-top: 14px
@@ -159,10 +160,6 @@ input
   background-color: #FCFCFC
 option
  padding: 10px 0
-
-.clear
- clear: both
-
 .money
  font-size: 39px
  font-weight: 500
@@ -173,4 +170,34 @@ option
  font-size: 18px 
  text-transform: none
  font-weight: 600
-@import 'submit'
+.submit
+ background-color: #df0e7a
+ border-radius: 30px
+ box-shadow: 0 6px 25px rgba(#000,0.2)
+ color: #fff
+ font-family: 'Bebas Neue Bold'
+ font-size: 34px
+ letter-spacing: 1px
+ padding: 1px 1px
+ margin-top: 25px
+ text-decoration: none
+ text-shadow: rgba(#000,0.4) 0 1px 0
+ vertical-align: middle
+ cursor: pointer
+ &:hover
+  box-shadow: 0 0 0 0 rgba(0,40,120,0) 
+ span
+  display: block
+  @include bg(#fc89c5, #df0e7a)
+  border-bottom: 1px solid #f354be
+  border-top: 1px solid #fed2e9
+  padding: 15px 35px
+  border-radius: 30px
+  &:hover
+   @include bg(#df0e7a, #fc89c5)
+
+
+
+
+  
+

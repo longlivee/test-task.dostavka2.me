@@ -1,3 +1,37 @@
+/* Gradient */
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder {
+  color: #2e2e2e;
+}
+
+/* WebKit */
+:-moz-placeholder {
+  color: #2e2e2e;
+}
+
+/* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {
+  color: #2e2e2e;
+}
+
+/* Mozilla Firefox 19+ */
+:-ms-input-placeholder {
+  color: #2e2e2e;
+}
+
+/* Internet Explorer 10+ */
+form input:focus, form textarea:focus, form select:focus, form button:focus {
+  outline: none;
+}
+
+form input, textarea, select, option {
+  border: 1px solid  #cacaca;
+}
+
+form button {
+  border: 0;
+}
+
 .timer {
   border-bottom: 1px solid #d9d9d9;
   height: 90px;
@@ -188,10 +222,6 @@ option {
   padding: 10px 0;
 }
 
-.clear {
-  clear: both;
-}
-
 .money {
   font-size: 39px;
   font-weight: 500;
@@ -207,66 +237,41 @@ option {
 }
 
 .submit {
-  background: #df0e7a;
-  background: -o-linear-gradient(top, #fc89c5, #df0e7a);
-  background: -webkit-gradient(linear, left top, left bottom, from(#fc89c5), to(#df0e7a));
-  border-radius: 31px;
-  border-top: 1px solid #fed2e9;
+  background-color: #df0e7a;
+  border-radius: 30px;
   -webkit-box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
           box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
   color: #fff;
-  font-family: 'Bebas Neue Bold';
+  font-family: "Bebas Neue Bold";
   font-size: 34px;
-  moz-border-radius: 31px;
-  moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   letter-spacing: 1px;
-  padding: 15px 26px;
+  padding: 1px 1px;
+  margin-top: 25px;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
   vertical-align: middle;
-  webkit-border-radius: 31px;
-  webkit-box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
-  -webkit-transition: 1s linear;
-  transition: 1s linear;
   cursor: pointer;
 }
-
 .submit:hover {
-  background-color: #3F51B5;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+          box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
 }
-
-.submit:active {
-  background: #f354be;
-  border-top-color: #f354be;
+.submit span {
+  display: block;
+  background: #fc89c5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fc89c5), to(#df0e7a));
+  background: linear-gradient(to bottom, #fc89c5 0%, #df0e7a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$btm',GradientType=0 );
+  border-bottom: 1px solid #f354be;
+  border-top: 1px solid #fed2e9;
+  padding: 15px 35px;
+  border-radius: 30px;
 }
-
-/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
-::-webkit-input-placeholder {
-  color: #2e2e2e;
-}
-
-/* WebKit */
-:-moz-placeholder {
-  color: #2e2e2e;
-}
-
-/* Mozilla Firefox 4 to 18 */
-::-moz-placeholder {
-  color: #2e2e2e;
-}
-
-/* Mozilla Firefox 19+ */
-:-ms-input-placeholder {
-  color: #2e2e2e;
-}
-
-/* Internet Explorer 10+ */
-form input:focus, form textarea:focus, form select:focus {
-  outline: none;
-}
-
-form input, textarea, select, option {
-  border: 1px solid  #cacaca;
+.submit span:hover {
+  background: #df0e7a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#df0e7a), to(#fc89c5));
+  background: linear-gradient(to bottom, #df0e7a 0%, #fc89c5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$btm',GradientType=0 );
 }
 
 /*# sourceMappingURL=form.css.map */

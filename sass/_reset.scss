@@ -1,0 +1,8 @@
+/* placeholder styles reset */
+::-webkit-input-placeholder {color: #2e2e2e;   } /* WebKit */
+:-moz-placeholder { color: #2e2e2e; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #2e2e2e; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder {color: #2e2e2e;  } /* Internet Explorer 10+ */
+form input:focus, form textarea:focus, form select:focus, form button:focus { outline: none; }
+form input, textarea, select, option {border: 1px solid  #cacaca;}
+form button, {border: 0};

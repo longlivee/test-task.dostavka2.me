@@ -1,0 +1,12 @@
+/* Gradient */
+@mixin bg($top, $btm) {
+ background: $top;
+ background: -moz-linear-gradient(top, $top 0%, $btm 100%);
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$btm));
+ background: -webkit-linear-gradient(top, $top 0%,$btm 100%);
+ background: -o-linear-gradient(top, $top 0%,$btm 100%);
+ background: -ms-linear-gradient(top, $top 0%,$btm 100%);
+ background: linear-gradient(to bottom, $top 0%,$btm 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$btm',GradientType=0 );
+}
+
