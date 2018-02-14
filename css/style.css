@@ -721,15 +721,17 @@
         text-shadow: none;
         margin-right: 0;
         line-height: 1em;
+        
 }
+
     .block1 h2 {
         font-size: 36px;
         font-weight: 400;
         font-family:'Bebas Neue Regular';
-        color: #fff;
         margin: 0;
         text-align: center;
         line-height: 1em;
+        color: #fff;
 }
     .block1 h2, .block5 h2, .safe, .usebox, .usebox .video-container {
         width: 100%;

@@ -16,11 +16,14 @@ blockquote, q {quotes: none;}
 img{max-width: 100%; height: auto;}
 a{text-decoration: underline;}
 a:hover{cursor: pointer;}
+form input:focus, form textarea:focus, form select:focus, form button:focus { outline: none; }
+form input, textarea, select, option {border: 1px solid  #cacaca;}
+form button {border: 0};
 /* michael-k90 */
-*::-webkit-input-placeholder {color: #a9a9a9; opacity: 1;}
-*:-moz-placeholder {color: #a9a9a9; opacity: 1;}
-*::-moz-placeholder {color: #a9a9a9; opacity: 1;}
-*:-ms-input-placeholder {color: #a9a9a9; opacity: 1;}
+*::-webkit-input-placeholder {color: #2e2e2e; opacity: 1;}
+*:-moz-placeholder {color: #2e2e2e; opacity: 1;}
+*::-moz-placeholder {color: #2e2e2e; opacity: 1;}
+*:-ms-input-placeholder {color: #2e2e2e; opacity: 1;}
 *{margin: 0; padding: 0;}
 *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 button,input,a{outline: none;}
