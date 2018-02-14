@@ -711,6 +711,9 @@
 }
 /*-------------------------------------- Media Queries ----959---------------------------------*//* after_qbici */    
 @media screen and (max-width: 976px) {
+    form {
+        display: none;
+    }
     .block1 {
         background: url(../img/b1m.jpg) no-repeat center top;
         padding: 15px 0 0;
@@ -902,7 +905,9 @@
 
 /*-------------------------------------- Media Queries ----639---------------------------------*//* michael-k90 */ 
 @media screen and (max-width: 659px) {
-
+    form {
+        display: none;
+    }
     .block1 {
         background: #bf4425 url(../img/b1s.jpg) no-repeat center top;
         height: auto;
